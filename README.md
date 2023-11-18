@@ -10,11 +10,23 @@ This repository explore the possibilities provided by:
 * [Sanic](https://sanic.dev/en/): Framework recommended by Reactpy. It is fast, asynchronous and is a lot alike flask
 * [Tortoise-ORM](https://github.com/tortoise/tortoise-orm/tree/0ec208b652b0d4dd03bd1fab7ae94cdafa58b8b7): ORM recommended async framework for Sanic. IIt is fast and support signal management
 
-The feature explored are meant to be used in a later project (see [Final Goals](#Final Goals)).
+The [feature explored](#Features explored) are meant to be used in a later project (see [Final Goals](#Final Goals)).
+You can run the test file:
+
+```bash
+sanic demo
+```
 
 
 
-## Feature explored
+## TODO
+
+* Package the utilities once the project is ready
+* Create a template using [copier.org](https://copier.readthedocs.io/en/stable/)
+
+
+
+## Features explored
 
 ### Session management
 
@@ -183,7 +195,6 @@ sanic [file_without_extension] [OPTIONS]
 
 https://github.com/reactive-python/reactpy-js-component-template
 https://reactpy.dev/docs/guides/escape-hatches/javascript-components.html#custom-javascript-components
-
 
 
 
