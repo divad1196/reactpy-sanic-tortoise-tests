@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "python-web-framework"
+version = "0.1.0"
+description = ""
+authors = ["Gallay David <david.gallay.96@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+reactpy = {extras = ["sanic"], version = "^1.0.2"}
+pyjwt = "^2.8.0"
+reactpy-router = "^0.1.0"
+sanic = "^23.6.0"
+sanic-ext = "^23.6.0"
+sanic-session = "^0.8.0"
+tortoise-orm = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
